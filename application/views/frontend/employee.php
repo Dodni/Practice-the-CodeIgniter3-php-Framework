@@ -13,9 +13,14 @@
                             <?php endif;  ?>
                             <h5>
                                 How to fetch Employee table data from database in codeigniter 
+                                <a href="<?php echo base_url('/'); ?>" class ="btn btn-success float-end">Go to employees page</a>
+                            </h5>
+                            </br>
+                            <h5>
                                 <a href="<?php echo base_url('employee/add'); ?>" class ="btn btn-primary float-end">Add Employee</a>
                             </h5>
-                            <br/>
+                            </br>
+                            </br>
                             <h5>
                                 <a href="<?php echo base_url('user/add'); ?>" class ="btn btn-primary float-end">Register User</a>
                             </h5>
@@ -62,3 +67,4 @@
             </div>
         </div>
     </div>
+  

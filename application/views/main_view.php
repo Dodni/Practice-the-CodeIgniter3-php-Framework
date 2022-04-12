@@ -26,6 +26,10 @@
           </div>
 
      </form>
+</br>
+</br>
+</br>
+<a href="<?php echo base_url('employee'); ?>" class ="btn btn-success float-end">Go to employees page</a>
 </div>
 </body>
 </html>
